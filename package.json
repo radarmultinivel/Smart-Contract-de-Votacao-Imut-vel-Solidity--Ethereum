@@ -1,0 +1,22 @@
+{
+    "name": "voting-contract",
+    "version": "1.0.0",
+    "description": "Contrato inteligente de votacao descentralizada em Solidity para EVM Ethereum",
+    "main": "hardhat.config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "hardhat test",
+        "compile": "hardhat compile",
+        "deploy": "hardhat run scripts/deploy.js"
+    },
+    "keywords": ["solidity", "ethereum", "evm", "voting", "smart-contract", "blockchain"],
+    "author": "L. A. Leandro",
+    "license": "MIT",
+    "type": "commonjs",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+        "hardhat": "^2.28.6"
+    }
+}
